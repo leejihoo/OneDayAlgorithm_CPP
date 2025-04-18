@@ -48,10 +48,10 @@ int main(){
         }
         else{ // command == 1 부모가 같은지 확인
             if(findParent(parent,a) == findParent(parent,b)){
-                cout << "yes" << endl;
+                cout << "yes\n";
             }
             else{
-                cout << "no" << endl;
+                cout << "no\n";
             }
         }
     }
